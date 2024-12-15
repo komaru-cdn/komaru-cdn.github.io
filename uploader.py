@@ -27,7 +27,9 @@ def upload_file_using_git(repo_path, file_path, commit_message="cdn: Add file vi
 
     subprocess.run(["git", "push"], cwd=repo_path)
 
-    print(f"File '{file_name}' uploaded successfully to the 'public' folder in the repository.")
+    print(f"Your file ({file_name}) has been succesfully uploaded to the CDN!")
+
+    print("Your URL (may take some time to be deployed):", "https://cdn.winbo.is-a.dev/public/", {file_name})
 
 file_path = input("Enter the path to the file to upload: ")
 
