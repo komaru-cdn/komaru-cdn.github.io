@@ -1,0 +1,3 @@
+ssh -J serveo.net public@winborpi
+
+passwd is "public", enjoy!
