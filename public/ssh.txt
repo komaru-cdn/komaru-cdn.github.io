@@ -1,1 +1,3 @@
-temporarily closed until my sd card arrives so i can fix my rpi's eeprom.
+ssh -J serveo.net public@winborpi
+
+passwd is "public", enjoy!
